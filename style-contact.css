@@ -1,0 +1,164 @@
+@font-face {
+    src: url(/FontsNew/Courgette/Courgette-Regular.ttf);
+    font-family: "courg";
+}
+@font-face {
+    src: url(/FontsNew/Karantina/Karantina-Bold.ttf);
+    font-family:"karbold";
+}
+@font-face {
+    src: url(/FontsNew/Nova\ Cut/.ttf);
+    font-family: "nova";
+}
+@font-face {
+    src: url(/FontsNew/Playball/Playball-Regular.ttf);
+    font-family:"playball" ;
+}
+@font-face {
+    src: url(/FontsNew/Ultra/Ultra-Regular.ttf);
+    font-family: "ultra";
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box
+}
+body {
+    font-family: "courg";
+    background-image: url("./Images/13.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 80vh;
+    background-attachment:fixed
+
+}
+header {
+    position: relative;
+}
+nav {
+    position:relative;
+    top: 5;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+nav ul li:hover a {
+    color: rgba(126, 18, 18, 0.719);
+}
+nav ul li {
+    display: inline-block;
+    padding: auto;
+    text-align: center;
+    list-style-type: none;
+    font-family:"ultra";
+}
+nav ul li a {
+    font-family:"ultra";
+    font-size: 2rem;
+    text-decoration-line: none;
+    text-align: center;
+    padding: 3rem;
+    display: block;
+    color: rgba(243, 235, 235, 0.753);
+    text-shadow: 0 5px 5px rgba(0,0,0,0.7);
+}
+h1 {
+    text-align: center;
+    color:peachpuff;
+    margin-inline: 50px;
+}   
+button {
+    width: 85%;
+    padding: 0.8rem;
+    border-radius: 0.8rem;
+    outline: none;
+    color: #efefef;
+    background-color: rgba(126, 18, 18, 0.719);
+    cursor: pointer;
+    border: none;
+    margin: 1rem;
+    font-size:1.5rem ;
+    font-family: "courg";
+}
+
+button:hover {
+    background-color: rgb(97, 103, 121);
+}
+form {
+    max-width: 35%;
+    margin: 0 auto;   
+    margin-top: 5rem;
+    color: white;
+    position:sticky;
+}
+
+legend {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: white;
+    padding: 0.8rem;
+    font-size: 2rem;
+    color: rgba(126, 18, 18, 0.719);
+}
+
+label {
+    display: inline-block;
+    width: 30rem;
+    padding: 0.5rem;
+    margin-left: 1rem;
+    font-weight: lighter;
+    font-size: 1,2rem;  
+} 
+
+fieldset {
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 1.5rem 0;
+    padding: 1.5rem;  
+}
+
+input [type="text"], input[type="email"] {
+    padding: 8px 5px;
+    width: 85%;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+div {
+    font-size: 1.4rem; 
+    font-style: oblique;  
+    color: wheat;  
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }  
+  footer {
+    position: relative;
+}
+
+i {
+    color: white;
+}
+
+.icons {
+    position: relative;
+    text-align: center;
+    font-size: 55px;
+}
+
+.space {
+    padding-right: 3rem;
+}
+
+.space:hover {
+    color: rgb(163, 158, 158);
+}

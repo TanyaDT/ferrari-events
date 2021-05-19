@@ -1,0 +1,113 @@
+@font-face {
+    src: url(/FontsNew/Courgette/Courgette-Regular.ttf);
+    font-family: "courg";
+}
+@font-face {
+    src: url(/FontsNew/Karantina/Karantina-Bold.ttf);
+    font-family:"karbold";
+}
+@font-face {
+    src: url(/FontsNew/Nova\ Cut/.ttf);
+    font-family: "nova";
+}
+@font-face {
+    src: url(/FontsNew/Playball/Playball-Regular.ttf);
+    font-family:"playball" ;
+}
+@font-face {
+    src: url(/FontsNew/Ultra/Ultra-Regular.ttf);
+    font-family: "ultra";
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box
+}
+body {
+    font-family: "courg";
+    background-image: url("./Images/2.jpg"); 
+    background-size: cover;
+    background-repeat: no-repeat;  
+    width: 100vw;
+    height: 80vh;
+    background-attachment:fixed
+
+}
+header {
+    position: fixed;
+    top: -3rem;    
+}
+nav {
+    position: fixed; 
+    width: 100%;
+    display: inline-block;
+    text-align: center; 
+    margin-top: 0.2rem;
+}
+nav ul li {
+    display: inline-block;
+    padding: auto;
+    text-align: center;
+    list-style-type: none;
+    font-family:"ultra";  
+}
+nav ul li:hover a {
+    color: rgba(126, 18, 18, 0.719);
+}
+nav ul li a {
+    font-family:"ultra";
+    font-size: 2rem;
+    text-decoration-line: none;
+    text-align: center;
+    padding: 3rem;
+    display: block;
+    color: rgba(187, 46, 36, 0.753);   
+    text-shadow: 0 5px 5px rgba(0,0,0,0.7);
+}
+.Title  {  
+    font-family:"playball" ;
+    color:rgb(106, 64, 175);
+    text-align: center;
+    margin-inline: 50px;
+    font-size: 1.9rem; 
+    margin-top: 150px;
+    margin-left: 380px;
+    margin-right: 290px;
+    position: fixed; 
+}
+.Name {
+    font-family:"karbold";
+    text-align: center;
+    font-size: 4.2rem;
+    margin-top: 240px;
+    margin-left: 630px;
+    margin-right: 130px;
+    color: black;
+    position: fixed; 
+}
+
+p {
+    font-family:"playball" ;
+    color: black;
+    text-align: center;
+    margin-left: 130px;
+    margin-right: 130px;
+    font-size: 2rem;
+    margin-top: 320px;
+    position: fixed; 
+}
+.menu {
+    text-align: center;
+    list-style-type: none;
+    font-size: 1.8rem; 
+    font-family:"playball" ; 
+    margin-left: 584px;
+    margin-top: 420px;
+    position: fixed; 
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+

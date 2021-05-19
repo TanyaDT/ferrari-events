@@ -1,0 +1,174 @@
+@font-face {
+    src: url(/FontsNew/Courgette/Courgette-Regular.ttf);
+    font-family: "courg";
+}
+@font-face {
+    src: url(/FontsNew/Karantina/Karantina-Bold.ttf);
+    font-family:"karbold";
+}
+@font-face {
+    src: url(/FontsNew/Nova\ Cut/.ttf);
+    font-family: "nova";
+}
+@font-face {
+    src: url(/FontsNew/Playball/Playball-Regular.ttf);
+    font-family:"playball" ;
+}
+@font-face {
+    src: url(/FontsNew/Ultra/Ultra-Regular.ttf);
+    font-family: "ultra";
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box
+}
+body {
+    font-family: "courg";
+    background-image: url("./Images/13.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 80vh;
+    background-attachment:fixed
+
+}
+header {
+    position: relative;
+}
+nav {
+    position:relative;
+    top: 5;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+nav ul li:hover a {
+    color: rgba(126, 18, 18, 0.719);
+}
+nav ul li {
+    display: inline-block;
+    padding: auto;
+    text-align: center;
+    list-style-type: none;
+    font-family:"ultra";
+}
+nav ul li a {
+    font-family:"ultra";
+    font-size: 2rem;
+    text-decoration-line: none;
+    text-align: center;
+    padding: 3rem;
+    display: block;
+    color: rgba(243, 235, 235, 0.753);
+    text-shadow: 0 5px 5px rgba(0,0,0,0.7);
+}
+h1 {
+    font-family:"playball" ;
+    margin-inline: 50px;
+    margin-left: 50px;
+    margin-right: 110px;
+    text-align: center;
+    color: hsl(44, 100%, 50%);
+    font-size: 44px;
+    margin-bottom: 30px;
+}
+.mainpic {
+    width: 60%;
+    height: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 3px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-left: 240px;
+}
+h2 {
+        font-family:"playball" ;
+        margin-inline: 50px;
+        margin-left: 50px;
+        margin-right: 110px;
+        text-align: center;
+        color: hsl(44, 100%, 50%);
+        font-size: 44px;
+        margin-bottom: 30px;
+        margin-top: 25px;
+}
+
+.Founder {
+    width: 80%;
+    height: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 3px solid rgb(99, 10, 10);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-left: 80px;
+    color: hsl(44, 100%, 50%);
+    text-align: center;
+    font-size: 25px;
+}
+
+.flex-grid {
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+}
+
+.flex-grid img {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 48%;
+    height: auto;
+    box-shadow: 0 20px 20px  rgba(0, 0, 0, 0.5);
+    margin: 1%;
+}
+
+.team-text {
+    width: 48%;
+    border: 3px solid rgb(99, 10, 10);
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: hsl(44, 100%, 50%);
+    text-align: left;
+    font-size: 25px;
+    box-shadow: 0 20px 20px  rgba(0, 0, 0, 0.5);
+    margin: 1%;
+    padding: 20px;
+    text-align: center; 
+}
+.MemberName {
+    color: silver;
+}
+.JobName {
+    color: seashell;
+}
+footer {
+    position: relative;
+}
+
+i {
+    color: white;
+}
+
+.icons {
+    position: relative;
+    text-align: center;
+    font-size: 55px;
+}
+
+.space {
+    padding-right: 3rem;
+}
+
+.space:hover {
+    color: rgb(163, 158, 158);
+}
