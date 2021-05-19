@@ -1,21 +1,21 @@
 @font-face {
-    src: url(/FontsNew/Courgette/Courgette-Regular.ttf);
+    src: url(./FontsNew/Courgette/Courgette-Regular.ttf);
     font-family: "courg";
 }
 @font-face {
-    src: url(/FontsNew/Karantina/Karantina-Bold.ttf);
+    src: url(./FontsNew/Karantina/Karantina-Bold.ttf);
     font-family:"karbold";
 }
 @font-face {
-    src: url(/FontsNew/Nova\ Cut/.ttf);
+    src: url(./FontsNew/Nova\ Cut/.ttf);
     font-family: "nova";
 }
 @font-face {
-    src: url(/FontsNew/Playball/Playball-Regular.ttf);
+    src: url(./FontsNew/Playball/Playball-Regular.ttf);
     font-family:"playball" ;
 }
 @font-face {
-    src: url(/FontsNew/Ultra/Ultra-Regular.ttf);
+    src: url(./FontsNew/Ultra/Ultra-Regular.ttf);
     font-family: "ultra";
 }
 * {
